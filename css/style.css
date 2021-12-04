@@ -1,0 +1,95 @@
+/*body with background image*/
+body{
+  margin: 0;
+  margin-top:50px;
+  text-align: center;
+  background-image:url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
+  background-repeat: no-repeat;
+  background-size:100% 20%;
+}
+/* name in h1 heading*/
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size:400%;
+}
+h3{
+  font-family: 'Uchen', serif;
+}
+p{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+/*work or caption in p tag*/
+.top-p{
+  font-family: 'Pacifico', cursive;
+  font-size:250%;
+}
+.profile{
+  margin:20% auto 5% auto;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill1,.skill3{
+  width:30%;
+  float: left;
+  margin-right:30px;
+}
+.skill2{
+  width: 30%;
+  float: right;
+  margin-left:30px;
+  margin-bottom: 25px;
+
+}
+/*hyper links without underline and with black color text*/
+a{
+  text-decoration: none;
+  color:black;
+
+}
+/*hyperlink hover*/
+a:hover{
+  color:blue;
+}
+.bottom-container{
+  background-color:#6E7C7C;
+}
+button{
+   margin:30px auto;
+   width:auto;
+   height:20%;
+   background-color:#D8E3E7;
+   border-style:solid;
+   border-radius:5px;
+}
+button:hover{
+  color: white;
+}
+.icons{
+  margin:20px 5px 25px 10px ;
+  width:25px;
+  position: relative;
+  top:30px;
+}
+.copy-right{
+  color:white;
+}
+@media (max-width:768px) {
+  body{
+    background-size: 100% 15%;
+  }
+  .profile{
+    margin:50% auto 5% auto;
+  }
+  button{
+    font-size:0.7rem;
+  }
+  .icons{
+    margin: 20px 0 25px 5px;
+    width:20px;
+  }
+
+}

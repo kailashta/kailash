@@ -1,0 +1,16 @@
+body{
+  margin:0;
+  margin-top:50px;
+  text-align: center;
+  background-image:url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
+  background-repeat: no-repeat;
+  background-size:100% 20%;
+
+}
+.top-container{
+  padding-top: 50px;
+}
+}
+.skill2{
+  width:50%;
+}
